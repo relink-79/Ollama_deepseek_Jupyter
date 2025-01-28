@@ -26,6 +26,8 @@ response = model.invoke("hello! how was your day today?")
 #print response
 print(response)
 ```
+#### Answer
+
 
     <think>
     
@@ -34,7 +36,7 @@ print(response)
     Hi! I just noticed that you're saying something about me in my message. It seems like I'm not fully connected to the moment or haven't received my emails yet. How can I assist you today? 😊
     
 
-this is an example with Langchain with chatPromptTemplate
+## Example with Langchain with chatPromptTemplate
 ```python
 #using chat prompt template example with Langchain
 from langchain_ollama.llms import OllamaLLM
@@ -62,7 +64,7 @@ start decreasing the number of stars by 1 in each line, printing 9, 7, 5, and so
 until only 1 star remain"""}))
 #I make this problem example. If you have a license with the problem, contact with github.
 ```
-<answer>
+#### Answer
 
      To solve this problem, we can use a loop to print the required number of asterisks (`*`) in each line. We'll start by incrementing from 2 up to 10 and then decrement back down. Let's write the code for this:
     
